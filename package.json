@@ -1,0 +1,29 @@
+{
+  "name": "@lincworld/eslint-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LincWorld/eslint-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LincWorld/eslint-config/issues"
+  },
+  "homepage": "https://github.com/LincWorld/eslint-config#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "1.x",
+    "@typescript-eslint/parser": "1.x",
+    "babel-eslint": "10.x",
+    "eslint": "6.x",
+    "eslint-plugin-import": "2.x"
+  },
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.8"
+  }
+}
