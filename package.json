@@ -1,6 +1,6 @@
 {
   "name": "@lincworld/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,14 +16,12 @@
     "url": "https://github.com/LincWorld/eslint-config/issues"
   },
   "homepage": "https://github.com/LincWorld/eslint-config#readme",
-  "peerDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "1.x",
     "@typescript-eslint/parser": "1.x",
     "babel-eslint": "10.x",
     "eslint": "6.x",
-    "eslint-plugin-import": "2.x"
-  },
-  "dependencies": {
+    "eslint-plugin-import": "2.x",
     "confusing-browser-globals": "^1.0.8"
   }
 }
