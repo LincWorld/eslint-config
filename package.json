@@ -1,27 +1,33 @@
 {
   "name": "@lincworld/eslint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish_npm": "npm publish --\"@lincworld:registry=https://registry.npmjs.org\" --access=public",
+    "publish_github": "npm publish",
+    "publish_all": "npm run publish_github && npm run publish_npm"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LincWorld/eslint-config.git"
   },
-  "author": "",
-  "license": "ISC",
+  "publishConfig": {
+	  "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "Brahma Dev",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/LincWorld/eslint-config/issues"
   },
   "homepage": "https://github.com/LincWorld/eslint-config#readme",
   "dependencies": {
+    "@lincworld/dot-files": "^1.0.3",
     "@typescript-eslint/eslint-plugin": "1.x",
     "@typescript-eslint/parser": "1.x",
     "babel-eslint": "10.x",
+    "confusing-browser-globals": "^1.0.8",
     "eslint": "6.x",
-    "eslint-plugin-import": "2.x",
-    "confusing-browser-globals": "^1.0.8"
+    "eslint-plugin-import": "2.x"
   }
 }
