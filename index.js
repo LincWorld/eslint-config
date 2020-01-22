@@ -1,5 +1,4 @@
-const restrictedGlobals = require("confusing-browser-globals");
-const config = require("@lincworld/dot-files/.eslintrc.json");
+const config = require("@linc.world/dot-files/.eslintrc.json");
 module.exports = {
 	plugins: ["import"],
 	env: config.env,
