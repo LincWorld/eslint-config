@@ -1,28 +1,25 @@
 {
-  "name": "@linc.world/eslint-config",
+  "name": "@lincworld/eslint-config",
   "version": "0.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "publish_npm": "npm publish --\"@linc.world:registry=https://registry.npmjs.org\" --access=public",
-    "publish_lnpm": "npm publish",
-    "publish_all": "npm run publish_lnpm && npm run publish_npm"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/linc.world/eslint-config.git"
+    "url": "git+https://github.com/LincWorld/eslint-config.git"
   },
   "publishConfig": {
-	 "registry": "https://lnpm.linc.world/"
+	 "registry": "https://npm.pkg.github.com/"
   },
   "author": "Brahma Dev",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/linc.world/eslint-config/issues"
+    "url": "https://github.com/LincWorld/eslint-config/issues"
   },
-  "homepage": "https://gitlab.com/linc.world/eslint-config#readme",
+  "homepage": "https://github.com/LincWorld/eslint-config#readme",
   "dependencies": {
-    "@linc.world/dot-files": "^1.0.3",
+    "@lincworld/dot-files": "^1.0.3",
     "@typescript-eslint/eslint-plugin": "1.x",
     "@typescript-eslint/parser": "1.x",
     "babel-eslint": "10.x",
